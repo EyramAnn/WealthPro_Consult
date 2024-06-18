@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    font-family: Poppins;
+    align-items: center;
+    /* position: fixed;
+    width: 100vw;   */
+}
+
+#nav-links {
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+
+}
+
+#nav-links h4 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#nav-links h4 span {
+    color: #4F86F9;
+    
+}
+
+
+#nav-links h4 p {
+    font-size: 12px;
+    align-items: start;
+    margin-top: -8px;
+    margin-left: 13px;
+    color: grey;
+}
+
+
+nav button {
+    background-color: white;
+    font-size:  16px;
+    padding: 10px 20px;
+    height: fit-content;
+    border: 1px solid #4F86F9;
+    margin-left: 140px;
+ 
+}
+
+
+nav button:hover {
+    background-color: #4F86F9; 
+}
+
+
+nav p {
+   
+    font-size: 18px;
+}
+
+nav p span {
+    color: #4F86F9;
+}
+#hero {
+    background-image: url("../assests/images/hero1.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
