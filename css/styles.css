@@ -33,6 +33,23 @@
     font-weight: 400;
     font-style: italic;
   }
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
   
 
 .logo {
@@ -44,10 +61,13 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 15px 60px;
+    position: fixed;
     font-family: Poppins;
     align-items: center;
-    /* position: fixed;
-    width: 100vw;   */
+    background-color: white;
+    position: fixed;
+    width: 100vw; 
+  
 }
 
 #nav-links {
@@ -82,14 +102,20 @@ nav button {
     font-size:  16px;
     padding: 10px 20px;
     height: fit-content;
-    border: 1px solid #4F86F9;
+    border: 1px solid #4d73c7;
     margin-left: 140px;
  
 }
 
+#nav-links span:hover {
+    color: #4F86F9;
+    text-decoration: 2px underline;
+    text-underline-offset: 34px;
+}
 
 nav button:hover {
     background-color: #4F86F9; 
+    color: white;
 }
 
 
@@ -110,6 +136,7 @@ nav p span {
     display: flex;
     height: 100vh;
     color: white;
+  
 
 
 }
@@ -134,10 +161,116 @@ nav p span {
 }
 
 #hero button {
-    font-size: 13px;
-    padding: 10px 30px;
-    margin-left: 10px;
+    font-size: 15px;
+    padding: 17px 40px;
+    margin-left: 30px;
     border: none;
     background-color: #1f4391;
     color: white;
 }
+
+#hero button:hover {
+    background-color: #1f4391;
+
+}
+
+#about {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   gap: 150px;
+   padding: 140px;
+
+}
+
+#about-image {
+    width: 500px;
+   
+}
+
+#about-image img{
+    height: 550px;
+    border-radius: 90px 0 0 0;
+
+}
+
+#about button {
+     position: absolute;
+     top: 600px;
+     left: 460px;
+     padding: 20px;
+     font-size: 80px;
+     font-weight: bolder;
+     width: 200px;
+     border: none;
+     background-color: #4d73c7;
+     color: white;
+     line-height: 1.2;
+    
+}
+
+#about button p{
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+
+#about-text {
+   padding-bottom: 120px;
+
+}
+#about #about-text .why{
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+
+#about #about-text .team{
+    font-size: 24px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+
+#about #about-text .wine{
+    font-size: 18px;
+    word-spacing: 10px;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+#about #about-text .sign {
+    font-size: 20px;
+    color: #1f2c4d;
+
+}
+
+
+#about-text .sign span {
+    font-size: 17px;
+    color: black;
+    
+}
+
+#about #about-text sign {
+    padding-bottom:  30px;
+}
+
+#services{
+    background-color:#E9E9E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#services h1 {
+        font-size: 40px;
+}
+
+
+
+
+
+
